@@ -6,6 +6,7 @@ namespace DesignPatternsUdemy
     {
         public static void Main(string[] args)
         {
+            #region Builder
             /// Fluent builder - inheritance through recursive generics
             /// -------------------------------------------------------
             //var me = Person.New
@@ -27,7 +28,11 @@ namespace DesignPatternsUdemy
             ///Builder exercise
             ///----------------
             //new BuilderExercise();
+            #endregion
 
+            #region Factory
+
+            #endregion
 
         }
     }
