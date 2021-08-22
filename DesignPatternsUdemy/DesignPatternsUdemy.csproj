@@ -36,6 +36,9 @@
     <Compile Include="Builder\CarStepwiseBuilder.cs" />
     <Compile Include="Builder\ICar.cs" />
     <Compile Include="Builder\PersonFluentBuilder.cs" />
+    <Compile Include="Factory\Point.cs" />
+    <Compile Include="Factory\HotDrinkMachine.cs" />
+    <Compile Include="Factory\FactoryExercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />

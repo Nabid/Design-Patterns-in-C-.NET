@@ -31,7 +31,14 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region Factory
+            //Factory.FactoryDemo.FactoryMethod();
+            //Factory.AbstractFactoryDemo.Demo();
 
+            var personFactory = new Factory.PersonFactory();
+            personFactory.CreatePerson("Andy");
+            personFactory.CreatePerson("Biden");
+            personFactory.CreatePerson("Clara");
+            personFactory.PrintFactory();
             #endregion
 
         }
