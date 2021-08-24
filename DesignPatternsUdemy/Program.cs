@@ -34,13 +34,18 @@ namespace DesignPatternsUdemy
             //Factory.FactoryDemo.FactoryMethod();
             //Factory.AbstractFactoryDemo.Demo();
 
-            var personFactory = new Factory.PersonFactory();
-            personFactory.CreatePerson("Andy");
-            personFactory.CreatePerson("Biden");
-            personFactory.CreatePerson("Clara");
-            personFactory.PrintFactory();
+            //var personFactory = new Factory.PersonFactory();
+            //personFactory.CreatePerson("Andy");
+            //personFactory.CreatePerson("Biden");
+            //personFactory.CreatePerson("Clara");
+            //personFactory.PrintFactory();
             #endregion
 
+            #region Prototype
+            //Prototype.ExplicitDeepCopy.Demo();
+            //Prototype.PrototypeInheritance.Demo();
+            //Prototype.CopySerialization.Demo();
+            #endregion
         }
     }
 }
