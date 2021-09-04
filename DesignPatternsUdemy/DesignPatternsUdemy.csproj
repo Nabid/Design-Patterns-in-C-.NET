@@ -52,6 +52,7 @@
     <Compile Include="Prototype\Exercise.cs" />
     <Compile Include="Adapter\Exercise.cs" />
     <Compile Include="Bridge\Exercise.cs" />
+    <Compile Include="Facade\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -59,6 +60,7 @@
     <Folder Include="Singleton\" />
     <Folder Include="Adapter\" />
     <Folder Include="Bridge\" />
+    <Folder Include="Facade\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
