@@ -50,6 +50,7 @@
   <ItemGroup>
     <Folder Include="Builder\" />
     <Folder Include="Factory\" />
+    <Folder Include="Singleton\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

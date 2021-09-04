@@ -46,6 +46,10 @@ namespace DesignPatternsUdemy
             //Prototype.PrototypeInheritance.Demo();
             //Prototype.CopySerialization.Demo();
             #endregion
+
+            #region Singleton
+
+            #endregion
         }
     }
 }
