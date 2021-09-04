@@ -50,6 +50,10 @@ namespace DesignPatternsUdemy
             #region Singleton
 
             #endregion
+
+            #region Adapter
+
+            #endregion
         }
     }
 }

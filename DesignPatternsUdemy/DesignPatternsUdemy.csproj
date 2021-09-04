@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.13.2\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.2\build\NUnit.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
@@ -32,6 +33,9 @@
     <Reference Include="System" />
     <Reference Include="System.Xml.Serialization" />
     <Reference Include="System.Xml" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.13.2\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -46,11 +50,16 @@
     <Compile Include="Prototype\CopySerialization.cs" />
     <Compile Include="Prototype\ExplicitDeepCopy.cs" />
     <Compile Include="Prototype\Exercise.cs" />
+    <Compile Include="Adapter\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
     <Folder Include="Factory\" />
     <Folder Include="Singleton\" />
+    <Folder Include="Adapter\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
