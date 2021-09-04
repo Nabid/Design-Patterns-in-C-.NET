@@ -54,6 +54,10 @@ namespace DesignPatternsUdemy
             #region Adapter
 
             #endregion
+
+            #region Bridge
+            Bridge.Exercise.Demo();
+            #endregion
         }
     }
 }

@@ -51,12 +51,14 @@
     <Compile Include="Prototype\ExplicitDeepCopy.cs" />
     <Compile Include="Prototype\Exercise.cs" />
     <Compile Include="Adapter\Exercise.cs" />
+    <Compile Include="Bridge\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
     <Folder Include="Factory\" />
     <Folder Include="Singleton\" />
     <Folder Include="Adapter\" />
+    <Folder Include="Bridge\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
