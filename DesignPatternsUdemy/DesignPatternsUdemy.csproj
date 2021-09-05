@@ -53,6 +53,7 @@
     <Compile Include="Adapter\Exercise.cs" />
     <Compile Include="Bridge\Exercise.cs" />
     <Compile Include="Facade\Exercise.cs" />
+    <Compile Include="Flyweight\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -61,6 +62,7 @@
     <Folder Include="Adapter\" />
     <Folder Include="Bridge\" />
     <Folder Include="Facade\" />
+    <Folder Include="Flyweight\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

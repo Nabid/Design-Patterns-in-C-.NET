@@ -62,6 +62,10 @@ namespace DesignPatternsUdemy
             #region Facade
 
             #endregion
+
+            #region Flyweight
+            Flyweight.Exercise.Demo();
+            #endregion
         }
     }
 }
