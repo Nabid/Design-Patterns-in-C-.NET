@@ -54,6 +54,8 @@
     <Compile Include="Bridge\Exercise.cs" />
     <Compile Include="Facade\Exercise.cs" />
     <Compile Include="Flyweight\Exercise.cs" />
+    <Compile Include="Decorator\Exercise.cs" />
+    <Compile Include="ChainOfResponsibility\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -63,6 +65,8 @@
     <Folder Include="Bridge\" />
     <Folder Include="Facade\" />
     <Folder Include="Flyweight\" />
+    <Folder Include="Decorator\" />
+    <Folder Include="ChainOfResponsibility\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

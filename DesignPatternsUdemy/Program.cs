@@ -56,7 +56,7 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region Bridge
-            Bridge.Exercise.Demo();
+            //Bridge.Exercise.Demo();
             #endregion
 
             #region Facade
@@ -64,7 +64,15 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region Flyweight
-            Flyweight.Exercise.Demo();
+            //Flyweight.Exercise.Demo();
+            #endregion
+
+            #region Decorator
+            //Decorator.Exercise.Demo();
+            #endregion
+
+            #region ChainOfResponsibility
+            ChainOfResponsibility.Exercise.Demo();
             #endregion
         }
     }
