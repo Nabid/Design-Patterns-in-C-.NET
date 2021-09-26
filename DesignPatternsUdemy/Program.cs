@@ -76,7 +76,7 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region
-
+            //Command.Exercise.Demo();
             #endregion
         }
     }
