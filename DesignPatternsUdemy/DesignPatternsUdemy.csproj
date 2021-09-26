@@ -56,6 +56,7 @@
     <Compile Include="Flyweight\Exercise.cs" />
     <Compile Include="Decorator\Exercise.cs" />
     <Compile Include="ChainOfResponsibility\Exercise.cs" />
+    <Compile Include="ChainOfResponsibility\BrokerChain.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
