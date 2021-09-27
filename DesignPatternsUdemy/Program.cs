@@ -75,8 +75,12 @@ namespace DesignPatternsUdemy
             //ChainOfResponsibility.Exercise.Demo();
             #endregion
 
-            #region
+            #region Command
             //Command.Exercise.Demo();
+            #endregion
+
+            #region Interpretor
+            //Interpreter.Exercise.Demo();
             #endregion
         }
     }

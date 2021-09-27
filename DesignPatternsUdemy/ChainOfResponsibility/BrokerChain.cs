@@ -128,7 +128,7 @@ namespace DesignPatternsUdemy.ChainOfResponsibility
 
         public class Demo
         {
-            public static void Main()
+            public static void Main2()
             {
                 var game = new Game();
                 var goblin = new Creature(game, "Strong Goblin", 3, 3);

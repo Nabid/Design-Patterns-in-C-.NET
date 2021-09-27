@@ -58,6 +58,7 @@
     <Compile Include="ChainOfResponsibility\Exercise.cs" />
     <Compile Include="ChainOfResponsibility\BrokerChain.cs" />
     <Compile Include="Command\Exercise.cs" />
+    <Compile Include="Interpreter\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -70,6 +71,7 @@
     <Folder Include="Decorator\" />
     <Folder Include="ChainOfResponsibility\" />
     <Folder Include="Command\" />
+    <Folder Include="Interpreter\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
