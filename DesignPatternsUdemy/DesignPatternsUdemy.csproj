@@ -59,6 +59,7 @@
     <Compile Include="ChainOfResponsibility\BrokerChain.cs" />
     <Compile Include="Command\Exercise.cs" />
     <Compile Include="Interpreter\Exercise.cs" />
+    <Compile Include="Iterator\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -72,6 +73,7 @@
     <Folder Include="ChainOfResponsibility\" />
     <Folder Include="Command\" />
     <Folder Include="Interpreter\" />
+    <Folder Include="Iterator\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

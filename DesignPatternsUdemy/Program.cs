@@ -82,6 +82,10 @@ namespace DesignPatternsUdemy
             #region Interpretor
             //Interpreter.Exercise.Demo();
             #endregion
+
+            #region Iterator
+            //Iterator.Exercise.Demo();
+            #endregion
         }
     }
 }
