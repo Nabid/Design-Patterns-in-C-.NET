@@ -60,6 +60,7 @@
     <Compile Include="Command\Exercise.cs" />
     <Compile Include="Interpreter\Exercise.cs" />
     <Compile Include="Iterator\Exercise.cs" />
+    <Compile Include="Mediator\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -74,6 +75,7 @@
     <Folder Include="Command\" />
     <Folder Include="Interpreter\" />
     <Folder Include="Iterator\" />
+    <Folder Include="Mediator\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

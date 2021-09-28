@@ -86,6 +86,10 @@ namespace DesignPatternsUdemy
             #region Iterator
             //Iterator.Exercise.Demo();
             #endregion
+
+            #region Mediator
+            Mediator.Exercise.Demo();
+            #endregion
         }
     }
 }
