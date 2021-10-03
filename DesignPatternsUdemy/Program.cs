@@ -94,6 +94,14 @@ namespace DesignPatternsUdemy
             #region Memento
 
             #endregion
+
+            #region Observer
+            // Events
+            // Weak Event Pattern
+            // Observer Interfaces
+            // Bidirectional
+            // Property Dependencies
+            // Container Wireup
             #endregion
         }
     }
