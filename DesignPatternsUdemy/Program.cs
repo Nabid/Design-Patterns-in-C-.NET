@@ -88,7 +88,12 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region Mediator
-            Mediator.Exercise.Demo();
+            //Mediator.Exercise.Demo();
+            #endregion
+
+            #region Memento
+
+            #endregion
             #endregion
         }
     }
