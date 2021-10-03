@@ -103,6 +103,10 @@ namespace DesignPatternsUdemy
             // Property Dependencies
             // Container Wireup
             #endregion
+
+            #region State
+            State.Exercise.Demo();
+            #endregion
         }
     }
 }

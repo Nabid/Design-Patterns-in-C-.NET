@@ -115,6 +115,7 @@
     <Compile Include="Observer\ContainerWireup.cs" />
     <Compile Include="Observer\PropertyDependencies.cs" />
     <Compile Include="Observer\Exercise.cs" />
+    <Compile Include="State\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Builder\" />
@@ -133,6 +134,7 @@
     <Folder Include="Memento\" />
     <Folder Include="NullObject\" />
     <Folder Include="Observer\" />
+    <Folder Include="State\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
