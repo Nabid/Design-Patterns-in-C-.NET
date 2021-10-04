@@ -120,9 +120,11 @@
     <Compile Include="TemplateMethod\Exercise.cs" />
     <Compile Include="Visitor\DoubleDispatch.cs" />
     <Compile Include="Visitor\Exercise.cs" />
+    <Compile Include="Proxy\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Singleton\" />
+    <Folder Include="Proxy\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

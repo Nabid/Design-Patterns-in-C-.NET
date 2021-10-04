@@ -71,6 +71,10 @@ namespace DesignPatternsUdemy
             //Decorator.Exercise.Demo();
             #endregion
 
+            #region Proxy
+
+            #endregion
+
             #region ChainOfResponsibility
             //ChainOfResponsibility.Exercise.Demo();
             #endregion
