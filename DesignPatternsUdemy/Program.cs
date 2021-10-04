@@ -109,7 +109,11 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region Strategy
-            Strategy.Exercise.Demo();
+            //Strategy.Exercise.Demo();
+            #endregion
+
+            #region TemplateMethod
+            TemplateMethod.Exercise.Demo();
             #endregion
         }
     }

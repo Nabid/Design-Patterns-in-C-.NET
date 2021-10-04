@@ -117,6 +117,7 @@
     <Compile Include="Observer\Exercise.cs" />
     <Compile Include="State\Exercise.cs" />
     <Compile Include="Strategy\Exercise.cs" />
+    <Compile Include="TemplateMethod\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Singleton\" />
