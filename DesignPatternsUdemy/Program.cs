@@ -107,6 +107,10 @@ namespace DesignPatternsUdemy
             #region State
             State.Exercise.Demo();
             #endregion
+
+            #region Strategy
+            Strategy.Exercise.Demo();
+            #endregion
         }
     }
 }

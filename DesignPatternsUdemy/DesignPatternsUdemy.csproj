@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\NUnit.3.13.2\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.2\build\NUnit.props')" />
   <PropertyGroup>
@@ -116,25 +116,10 @@
     <Compile Include="Observer\PropertyDependencies.cs" />
     <Compile Include="Observer\Exercise.cs" />
     <Compile Include="State\Exercise.cs" />
+    <Compile Include="Strategy\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Builder\" />
-    <Folder Include="Factory\" />
     <Folder Include="Singleton\" />
-    <Folder Include="Adapter\" />
-    <Folder Include="Bridge\" />
-    <Folder Include="Facade\" />
-    <Folder Include="Flyweight\" />
-    <Folder Include="Decorator\" />
-    <Folder Include="ChainOfResponsibility\" />
-    <Folder Include="Command\" />
-    <Folder Include="Interpreter\" />
-    <Folder Include="Iterator\" />
-    <Folder Include="Mediator\" />
-    <Folder Include="Memento\" />
-    <Folder Include="NullObject\" />
-    <Folder Include="Observer\" />
-    <Folder Include="State\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
