@@ -118,6 +118,8 @@
     <Compile Include="State\Exercise.cs" />
     <Compile Include="Strategy\Exercise.cs" />
     <Compile Include="TemplateMethod\Exercise.cs" />
+    <Compile Include="Visitor\DoubleDispatch.cs" />
+    <Compile Include="Visitor\Exercise.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Singleton\" />

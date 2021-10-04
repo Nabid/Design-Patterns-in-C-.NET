@@ -113,7 +113,11 @@ namespace DesignPatternsUdemy
             #endregion
 
             #region TemplateMethod
-            TemplateMethod.Exercise.Demo();
+            //TemplateMethod.Exercise.Demo();
+            #endregion
+
+            #region Visitor
+            //Visitor.Exercise.Demo();
             #endregion
         }
     }
